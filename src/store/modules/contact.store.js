@@ -11,7 +11,9 @@ const state = {
     phone: '',
     message: ''
   },
-  mailEndpoint: 'https://api.pineapple.net.au/email/landing'
+  mailEndpoint: 'https://api.pineapple.net.au/email/landing',
+  externalServiceURL: process.env.VUE_APP_EXTERNAL_SERVICE_URL,
+  externalServiceKey: process.env.VUE_APP_EXTERNAL_SERVICE_KEY
 }
 
 const getters = {
