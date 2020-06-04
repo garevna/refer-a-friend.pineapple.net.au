@@ -2,9 +2,9 @@
 /* eslint-disable no-shadow */
 
 const state = {
-  browserTabTitle: 'Fast Fibre Internet',
-  emailSubject: 'Melbourne’s Fastest Internet',
-  emailText: 'Thank you for your interest in Pineapple NET! A member of our team will be in touch shortly.',
+  browserTabTitle: 'Refer a friend',
+  emailSubject: 'Refer a friend',
+  emailText: 'Thank you for participating in the referral action',
   mainNavButtons: ['FAQs', 'Get in Touch'],
   mainNavSectors: ['#faq', '#contact'],
   top: {
@@ -25,8 +25,9 @@ const state = {
   },
   userForm: {
     title: 'Enter your Details and we’ll take care of the rest',
+    text: 'Bring a friend to Pineapple and we\'ll hook you both up with a month FREE internet when they activate with us.',
     // messagePlaceholder: 'Enquiry*',
-    button: 'Go Lightspeed'
+    button: 'Give my neighbour free internet'
   },
   howToConnect: {
     header: 'Internet You Can Throw Your Reputation Behind',
