@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/refer-a-friend.pineapple.net.au/precache-manifest.0efbcacad3fbe064c72c839c49def228.js"
+  "/refer-a-friend.pineapple.net.au/precache-manifest.e6f6da55f73242fd6b3ea42ae20c10f5.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "refer-a-friend.pineapple.net.au"});
